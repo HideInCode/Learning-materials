@@ -35,10 +35,13 @@ update set 表名 字段=值 where 过滤条件; ->"不接where就全更新表�
 5. 数据控制语言
 
 数据控制语句，用于控制不同数据段直接的许可和访问级别的语句。这些语句定义了数据库、表、字段、用户的访问权限和安全级别。主要的语句关键字包括 grant、revoke 等。
--grant、revoke
+- grant、revoke
+
 # 查看表结构
--desc 表名;
-#show
+
+- desc 表名;
+
+# show 语法
 
 1. show tables或show tables from database_name; -- 显示当前数据库中所有表的名称。 
 2. show databases; -- 显示mysql中所有数据库的名称。 
