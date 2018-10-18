@@ -1,16 +1,16 @@
-#MySQL安装
+# MySQL安装
 
 1. 用管理员方式打开dos窗口
 2. mysqld --initialize --console 记录这时出现的temp密码
 3. mysql install 安装软件
 4. net start mysql 启动MySQL服务,用来连接
 
-5.修改密码 
+# 修改密码 
 
 登录前:mysqladmin -u用户名 -p临时密码 password 新密码
 登入MySQL后:set password for root@localhost = password('新密码')
 
-#sql语言分类
+# sql语言分类
 
 1. 查询语言DQL
 
@@ -36,7 +36,7 @@ update set 表名 字段=值 where 过滤条件; ->"不接where就全更新表�
 
 数据控制语句，用于控制不同数据段直接的许可和访问级别的语句。这些语句定义了数据库、表、字段、用户的访问权限和安全级别。主要的语句关键字包括 grant、revoke 等。
 -grant、revoke
-#查看表结构
+# 查看表结构
 -desc 表名;
 #show
 
